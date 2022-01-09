@@ -1,11 +1,11 @@
 {
-    "name": "nyx/validation",
-    "description": "NYX Validation component",
+    "name": "nyxio/validation",
+    "description": "nyxio validation component",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Nyx\\Validation\\": ""
+            "Nyxio\\Validation\\": ""
         }
     },
     "authors": [
@@ -17,8 +17,8 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=8.1",
-        "nyx/contract": "dev-main",
-        "nyx/http": "dev-main",
+        "nyxio/contract": "dev-main",
+        "nyxio/http": "dev-main",
         "nyx-helper": "dev-main"
     }
 }

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Nyx\Validation\Attribute;
+namespace Nyxio\Validation\Attribute;
 
 #[\Attribute(\Attribute::TARGET_CLASS)]
 class RuleGroup

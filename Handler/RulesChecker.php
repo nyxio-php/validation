@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Nyx\Validation\Handler;
+namespace Nyxio\Validation\Handler;
 
-use Nyx\Contract\Validation\Handler\RulesCheckerInterface;
-use Nyx\Contract\Validation\RuleExecutorCollectionInterface;
+use Nyxio\Contract\Validation\Handler\RulesCheckerInterface;
+use Nyxio\Contract\Validation\RuleExecutorCollectionInterface;
 
-use function Nyx\Helper\Text\getFormattedText;
+use function Nyxio\Helper\Text\getFormattedText;
 
 class RulesChecker implements RulesCheckerInterface
 {

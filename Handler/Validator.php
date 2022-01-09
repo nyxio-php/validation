@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Nyx\Validation\Handler;
+namespace Nyxio\Validation\Handler;
 
 class Validator
 {

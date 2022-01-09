@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Nyx\Validation\Handler;
+namespace Nyxio\Validation\Handler;
 
-use Nyx\Contract\Http\HttpStatus;
-use Nyx\Contract\Validation\Handler\RulesCheckerInterface;
-use Nyx\Contract\Validation\Handler\ValidatorCollectionInterface;
-use Nyx\Http\Exception\HttpException;
+use Nyxio\Contract\Http\HttpStatus;
+use Nyxio\Contract\Validation\Handler\RulesCheckerInterface;
+use Nyxio\Contract\Validation\Handler\ValidatorCollectionInterface;
+use Nyxio\Http\Exception\HttpException;
 
 class ValidatorCollection implements ValidatorCollectionInterface
 {

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Nyx\Validation;
+namespace Nyxio\Validation;
 
-use Nyx\Validation\Attribute\Rule;
+use Nyxio\Validation\Attribute\Rule;
 
 class DefaultRules
 {

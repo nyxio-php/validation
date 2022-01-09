@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Nyx\Validation;
+namespace Nyxio\Validation;
 
-use Nyx\Contract\Container\ContainerInterface;
-use Nyx\Contract\Validation\RuleExecutorCollectionInterface;
-use Nyx\Helper\Attribute\ExtractAttribute;
-use Nyx\Validation\Attribute\Rule;
-use Nyx\Validation\Attribute\RuleGroup;
+use Nyxio\Contract\Container\ContainerInterface;
+use Nyxio\Contract\Validation\RuleExecutorCollectionInterface;
+use Nyxio\Helper\Attribute\ExtractAttribute;
+use Nyxio\Validation\Attribute\Rule;
+use Nyxio\Validation\Attribute\RuleGroup;
 
 class RuleExecutorCollection implements RuleExecutorCollectionInterface
 {
